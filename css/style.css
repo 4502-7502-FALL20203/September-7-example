@@ -55,6 +55,19 @@ text-decoration: underline overline 10px #FF3028;
 	border: red 5px solid;
 }
 
+
+.material-symbols-outlined {
+		  font-variation-settings:
+		  'FILL' 0,
+		  'wght' 400,
+		  'GRAD' 0,
+		  'opsz' 24
+		}
+
+.monotype {
+			font-family: 'IBM+Plex', monospace;
+		}
+
 /*.blues {
 	rgba(115, 191, 255, 0.5) 73bfff
 }
