@@ -27,7 +27,12 @@ footer {
 h1 {
 	font-size: 4rem;
 	font-display: ;
-	text-transform: uppercase;
+	text-transform: lowercase;
+}
+
+h2 {
+	font-size: 2.5rem;
+	text-transform: capitalize;
 }
 
 
@@ -91,7 +96,8 @@ text-decoration: underline overline 10px #FF3028;
 }
 
 .punchline {
-	text-decoration: #00bfff wavy 5px underline;
+	text-decoration: #00bfff wavy 2px underline;
+	text-transform: lowercase;
 }
 
 .material-symbols-outlined {
