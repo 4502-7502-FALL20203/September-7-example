@@ -9,7 +9,7 @@ main {
 
 
 body {
-	background-color: rgba(229, 172, 103, 5.0);
+	background-color: rgba(229, 172, 103, 0.5);
 
 }
 
@@ -75,6 +75,7 @@ text-decoration: underline overline 10px #FF3028;
 .mailing-link img {
 /*	width: 100%;*/
 	margin: 1rem;
+	margin: auto;
 	border-radius: 1rem;
 	filter: drop-shadow(0 0 0.75rem #00bfff);
 /*	filter: drop-shadow(0 0 0.75rem crimson);*/
