@@ -57,11 +57,11 @@ background-color: rgba(218,165,32,0.5);
 }
 
 
-.example-font .blues2 p{
+.example-font .blues2 p {
 	font-family: 'Crimson Pro', serif;
 	font-size: 1.5rem;
 /*	text-decoration: underline;*/
-text-decoration: underline overline 10px #FF3028;
+	text-decoration: underline  10px #FF3028;
 
 }
 
@@ -79,12 +79,12 @@ text-decoration: underline overline 10px #FF3028;
 
 .mailing-link img {
 /*	width: 100%;*/
-	margin: 1rem;
+/*	margin: 1rem;*/
 	margin: auto;
-	border-radius: 1rem;
-	filter: drop-shadow(0 0 0.75rem #00bfff);
+	border-radius: 20rem;
+/*	filter: drop-shadow(0 0 0.75rem #00bfff);*/
 /*	filter: drop-shadow(0 0 0.75rem crimson);*/
-/*	filter: drop-shadow(0 0 0.75rem lightseagreen);*/
+	filter: drop-shadow(0 0 0.75rem #913814);
 }
 
 .mailing-link a {
