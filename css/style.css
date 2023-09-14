@@ -2,15 +2,22 @@
 
 
 main {
-
+	max-width: 800px;
+	margin: auto;
 
 }
 
 
 body {
-	background-color: rgba(229, 172, 103, 1.0);
+	background-color: rgba(229, 172, 103, 5.0);
 
 }
+
+p {
+	font-family: font-family: 'Noto Sans', sans-serif;
+}
+
+
 
 footer {
 
@@ -21,6 +28,12 @@ h1 {
 	font-size: 4rem;
 	font-display: ;
 	text-transform: uppercase;
+}
+
+
+.fancy-text {
+	font-family: 'Nabla', cursive;
+
 }
 
 .crabgrounds6 {
@@ -55,6 +68,30 @@ text-decoration: underline overline 10px #FF3028;
 	border: red 5px solid;
 }
 
+.mailing-link {
+
+}
+
+.mailing-link img {
+/*	width: 100%;*/
+	margin: 1rem;
+	border-radius: 1rem;
+	filter: drop-shadow(0 0 0.75rem #00bfff);
+/*	filter: drop-shadow(0 0 0.75rem crimson);*/
+/*	filter: drop-shadow(0 0 0.75rem lightseagreen);*/
+}
+
+.mailing-link a {
+
+}
+
+.listings {
+
+}
+
+.punchline {
+	text-decoration: #00bfff wavy 5px underline;
+}
 
 .material-symbols-outlined {
 		  font-variation-settings:
@@ -82,7 +119,10 @@ text-decoration: underline overline 10px #FF3028;
 
 }*/
 
-
-@media >800px {
-
-}
+/*
+@media (max-width: 300px) {
+	p {
+		font-family: 'Nabla', cursive;
+		font-size: 1rem;
+	}
+}*/
