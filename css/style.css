@@ -126,10 +126,37 @@ background-color: rgba(218,165,32,0.5);
 
 }*/
 
-/*
-@media (max-width: 300px) {
+
+/*@media (min-width: 300px) {
 	p {
 		font-family: 'Nabla', cursive;
 		font-size: 1rem;
 	}
+}
+
+@media (min-width: 600px) {
+	body {
+	background-color: rgba(229, 172, 103, 0.5);
+
+	}
+	.punchline {
+	text-decoration: crimson wavy 2px underline;
+	text-transform: uppercase;
+
+	}
+
 }*/
+
+
+
+
+@media (max-width: 500px){
+	main {width: 100%}
+	img {
+		width: 100%;
+	}
+
+
+
+
+}
