@@ -1,0 +1,30 @@
+
+/*font-family: 'IBM Plex Sans', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+
+
+
+
+
+body {
+
+	display: flex;
+	
+	justify-content: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+nav {
+
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	margin: 1rem;
+}
+
+p {
+	font-family: 'IBM Plex Sans', sans-serif;
+}
