@@ -9,14 +9,40 @@
 body {
 /*	background-color: orange;*/
 	display: flex;
-	
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	font-family: 'IBM Plex Sans', sans-serif;
+	max-width: 100%;
+	overflow: scroll; /* Show scrollbars */
+
 
 }
 
 nav {
+	max-width: 800px;
+	margin: auto;
+	font-size: 1.5em;
+}
 
+nav ul {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+nav ul li {
+	flex-flow: row wrap;
+	list-style-type: none;
+	padding: 1rem;
+	max-width: 100%;
+
+}
+
+main {
+	max-width: 100%;
 }
 
 h1 {
@@ -31,19 +57,133 @@ p {
 
 .example-image {
 	display: flex;
+	flex-direction: column;
 	margin: 3rem;
+
 }
 
 .example-image img {
-	max-width: 100px;
-	padding: 2rem;
+	display: flex;
+  	max-width:230px;
+  	max-height:95px;
+ 	width: auto;
+  	height: auto;
+  	margin: 1rem;
+}
+
+.listings2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+/*
+
+Name h2
+Year date-label
+Description desc-label
+Notable disctintion notable-label
+wiki link wiki-link*/
+
+.list-item {
+	display: flex;
+/*	flex-wrap: wrap;*/
+	box-shadow: inset 1rem 1rem gold;
+}
+
+.list-item h2 {
+	display: flex;
+	font-family: 'Pixelify Sans', cursive; 
+/*	This will fall back to a default font when not connected*/
+}
+
+.list-item .date-label {
+	display: flex;
+	font-weight: 200;
+	margin-left: 1rem;
+}
+
+.list-item .desc-label {
+	display: flex;
+	font-weight: 400;
+	margin-left:1rem;
+	padding: 0.25rem;
+	margin-top: -1rem;
+
+}
+
+.list-link {
+	text-decoration: underline solid rgba(153,0,0,.5) 5px;
+
+}
+
+.list-image {
+
+
+	
+}
+
+.list-image img{
+
+	max-width: 200px;
+	margin: 1rem;
+	box-shadow: 3px 3px gold;
+	border-radius: 0.3rem;
+	
+}
+
+
+/*start of media queries*/
+@media screen and (max-width: 479px){
+	body {
+		background-color: greenyellow;
+}
+
+h1 {
+	font-weight: 700;
+	text-decoration: underline 3rem solid gold;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 2.3rem;
+}
+
+p {
+	font-size: 1.5rem;
+	}
+
+
+
+}
+
+
+@media screen and (min-width:480px){
+	body {
+		background-color: mediumpurple;
+}
+	}
+
+
+@media screen and (min-width:720px){
+.example-image {
+	
+	flex-direction: row !important;
+	margin: 3rem;
+
+}
+.example-image img {
+	background-color: crimson;
+	padding: 3rem;
 }
 
 
 
 
 
+	body {
+	background-color: skyblue;
+}
 
+	}
 
 
 
