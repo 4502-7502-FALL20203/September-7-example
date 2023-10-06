@@ -24,6 +24,7 @@ nav ul {
 }
 
 nav ul li {
+	background-color: whitesmoke;
 	flex-flow: row wrap;
 	list-style-type: none;
 	padding: 1rem;
@@ -320,7 +321,7 @@ background-color: rgba(218,165,32,0.5);
 
 .mailing-link img {
 	border-radius: 5rem;
-	
+
 }
 
 .lead-image img {
@@ -444,9 +445,12 @@ nav {
 
 nav ul {
 	display: flex;
-	align-items: center;
+	align-items: stretch;
 	flex-direction: column;
 	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
 	
 }
 
@@ -454,11 +458,15 @@ nav ul li {
 	flex-flow: row wrap;
 	list-style-type: none;
 	padding: 0.1rem;
-	max-width: 100%;
+	text-align: center;
+	margin-top: 0.15rem;
+/*	width: 100%;*/
+	
 
 }
 
 nav ul li a {
+
 	text-decoration: none;
 	text-transform: uppercase;
 }
