@@ -318,6 +318,11 @@ background-color: rgba(218,165,32,0.5);
 
 }
 
+.mailing-link img {
+	border-radius: 5rem;
+	
+}
+
 .lead-image img {
 /*	width: 100%;*/
 /*	margin: 1rem;*/
