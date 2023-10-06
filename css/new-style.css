@@ -87,6 +87,11 @@ wiki link wiki-link*/
 	display: flex;
 /*	flex-wrap: wrap;*/
 	box-shadow: inset 1rem 1rem gold;
+	border-radius: 3px;
+}
+
+.img-credit {
+
 }
 
 .list-item h2 {
@@ -94,6 +99,11 @@ wiki link wiki-link*/
 	font-family: 'Pixelify Sans', cursive; 
 /*	This will fall back to a default font when not connected*/
 }
+
+.date-label {
+
+}
+
 
 .list-item .date-label {
 	display: flex;
@@ -116,7 +126,16 @@ wiki link wiki-link*/
 }
 
 .list-image {
+	display: flex;
+	justify-content: flex-start;
+}
 
+.list-image a {
+/*	flex-flow: row-reverse;*/
+	font-family: 'IBM Plex Mono', monospace;
+	float: right;
+	margin-top: -1rem;
+	padding-right: 2rem;
 
 	
 }

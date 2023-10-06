@@ -8,6 +8,7 @@ body {
 }
 
 
+
 nav {
 	max-width: 800px;
 	margin: auto;
@@ -80,7 +81,7 @@ h4 {
 
 }
 
-.background-blue h3{
+.background-blue h3 {
 	background: skyblue;
 }
 
