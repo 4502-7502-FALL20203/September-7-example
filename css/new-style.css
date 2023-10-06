@@ -51,6 +51,10 @@ h1 {
 	margin: 1rem;
 }
 
+a {
+
+}
+
 p {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -90,9 +94,7 @@ wiki link wiki-link*/
 	border-radius: 3px;
 }
 
-.img-credit {
 
-}
 
 .list-item h2 {
 	display: flex;
@@ -128,17 +130,31 @@ wiki link wiki-link*/
 .list-image {
 	display: flex;
 	justify-content: flex-start;
+	position: relative;
 }
 
-.list-image a {
-/*	flex-flow: row-reverse;*/
-	font-family: 'IBM Plex Mono', monospace;
-	float: right;
-	margin-top: -1rem;
-	padding-right: 2rem;
-
-	
+.img-credit {
+	    
+    	position: absolute;
+    	bottom: 0;
+    	right: 0;
+/*    	width: 100%;*/
+    	z-index: 3;
+    	color: #fff;
+	    font-family: 'IBM Plex Mono', monospace;
+    	font-size: 0.8rem;
+    	padding: 1rem;
 }
+
+.img-credit a {
+	color: whitesmoke;
+	text-shadow: black 1px 0 10px;
+	background: black;
+	border-radius: 2px;
+
+}
+
+/**/
 
 .list-image img{
 
