@@ -37,6 +37,28 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
+	color: forestgreen;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
+	color: forestgreen;
+}
+
+nav ul li a:hover {
+	text-decoration: ;
+	color: blue;
+}
+
+
+/*a:visited {
+  color: cyan;
+  text-decoration-color: hotpink;
+  
+}*/
+
+a:hover {
+
 }
 
 
@@ -52,7 +74,7 @@ p {
 /*	font-size: 1rem;*/
 }
 
-1rem
+
 
 
 footer {
@@ -88,7 +110,7 @@ p {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-.example-image {
+example-image {
 	display: flex;
 	flex-direction: column;
 	margin: 3rem;
