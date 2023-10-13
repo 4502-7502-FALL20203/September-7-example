@@ -78,7 +78,9 @@ p {
 
 
 footer {
-
+	font-family: 'Playfair Display', serif;
+	font-weight: 100;
+	color: seagreen;
 
 }
 
@@ -248,11 +250,19 @@ background-color: rgba(218,165,32,0.5);
 }
 
 
+.blues2 {
+	color: #797979;
+	background-color: greenyellow;
+/*	this is a test item*/
+}
+
+
 .example-font .blues2 p {
 	font-family: 'Crimson Pro', serif;
 	font-size: 1.5rem;
 /*	text-decoration: underline;*/
 	text-decoration: underline  10px #FF3028;
+	color: crimson;
 
 }
 
