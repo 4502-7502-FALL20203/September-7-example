@@ -356,7 +356,7 @@ background-color: rgba(218,165,32,0.5);
 
 .mailing-link img {
 	border-radius: 5rem;
-
+	max-width: 400px;
 }
 
 .lead-image img {
@@ -383,7 +383,7 @@ background-color: rgba(218,165,32,0.5);
 }
 
 .punchline {
-	display: none;
+/*	display: none;*/
 	text-decoration: #00bfff wavy 2px underline;
 	text-transform: lowercase;
 }
@@ -434,6 +434,10 @@ background-color: rgba(218,165,32,0.5);
 	}
 
 }*/
+
+.intro {
+	background-color: blueviolet;
+}
 
 
 .scifi-intro {
