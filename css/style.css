@@ -159,7 +159,7 @@ button {
 }
 
 .gallery-image {
-	max-width: 20rem;
+	max-width: 80%;
 
 }
 
@@ -653,6 +653,11 @@ nav ul li a {
 	body {
 		background-color: mediumpurple;
 }
+
+
+
+
+
 	}
 
 
