@@ -18,6 +18,12 @@
   font-size: 2rem;
 }
 
+.anchor-nav {
+	position: sticky;
+	top: 40px;
+	
+}
+
 
 body {
 	background-color: rgba(229, 172, 103, 0.5);
