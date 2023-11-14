@@ -323,6 +323,15 @@ wiki link wiki-link*/
 
 }
 
+.fancy-background {
+	background-color: #797979;
+	padding: 1rem;
+}
+
+.fancy-background .fancy-text {
+	font-size: xx-large;
+}
+
 .background-blue h3 {
 	background: skyblue;
 }
