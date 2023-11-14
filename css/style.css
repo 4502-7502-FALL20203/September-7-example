@@ -19,10 +19,22 @@
 }
 
 .anchor-nav {
+	display: flex;
 	position: sticky;
-	top: 100px;
-	
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	background-color: teal;
+	margin: auto;
+	padding: 0.5rem;
+	color: #FFE3AA;
+	text-transform: uppercase;
+	border-radius: 1rem;
 
+}
+
+.anchor-nav a {
+	color: #ffe3aa;
 }
 
 
@@ -434,12 +446,14 @@ background-color: rgba(218,165,32,0.5);
 }
 
 .mailing-link {
-
+	display: flex;
 }
 
 .mailing-link img {
+	display: flex;
 	border-radius: 5rem;
 	max-width: 400px;
+	justify-content: center;
 }
 
 .lead-image img {
@@ -561,7 +575,7 @@ background-color: rgba(218,165,32,0.5);
 
 
 body {
-		background-color: greenyellow;
+		background-color: #93bbec;
 }
 
 main {
@@ -675,7 +689,7 @@ nav ul li a {
 
 @media screen and (min-width:501px){
 	body {
-		background-color: mediumpurple;
+		background-color: #67a0e5;
 }
 
 
@@ -702,6 +716,7 @@ nav ul li a {
 
 
 	body {
+
 	background-color: skyblue;
 }
 
